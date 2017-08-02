@@ -274,13 +274,13 @@ def comment_email(commentor, to_email):
             }
         ],
         "from": {
-            "email": "admin@sociokids.com",
-            "name": 'SocioAdmin'
+            "email": "admin@socialkids.com",
+            "name": 'SocialAdmin'
         },
         "content": [
             {
                 "type": "text/html",
-                "value": '<h1>SocioKids</h1><br><br> ' + commentor + ' just commented on your post. <br> <br><h2><a href="sociokids.com">Have a look </a></h2>'
+                "value": '<h1>SocialKids</h1><br><br> ' + commentor + ' just commented on your post. <br> <br><h2><a href="sociokids.com">Have a look </a></h2>'
 
             }
         ]
